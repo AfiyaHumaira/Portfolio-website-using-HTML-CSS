@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section (Homepage) -->
+    <div class="hero">
+       <nav>
+        <img src="imagess/logo.png" class="logo">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#hire">HIRE ME</a></li>
+        </ul>
+       </nav> 
+       <div class="detel">
+        <h1>I'm Afiya <span>Humaira</span></h1>
+        <p>This is my official portfolio website showcasing
+            <br> details and work experience. 
+        </p>
+        <a href="files/resume-sample.pdf" download="Afiya_Humaira_CV.pdf" class="btn">DOWNLOAD CV</a>
+       </div>
+       <div class="imagess">
+           <img src="imagess/shape1.png" class="shape">
+           <img src="imagess/girl.png" class="girl">
+       </div>
+    </div>
+
+  <!-- About Section -->
+<section id="about">
+    <div class="about-container">
+        <!-- Profile Image -->
+        <div class="about-img">
+            <img src="imagess/girl.png" alt="Afiya Humaira">
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I'm <strong>Afiya Humaira</strong>, a dedicated web developer passionate about crafting elegant and efficient web solutions.  
+                With expertise in <strong>front-end and back-end development</strong>, I create seamless digital experiences.
+            </p>
+
+            <!-- Skills Highlights -->
+            <div class="skills">
+                <div class="skill-item">
+                    <img src="icons/web-development.png" alt="Development">
+                    <span>Full-Stack Development</span>
+                </div>
+                <div class="skill-item">
+                    <img src="icons/ui-ux.png" alt="UI/UX">
+                    <span>UI/UX Design</span>
+                </div>
+                <div class="skill-item">
+                    <img src="icons/seo.png" alt="SEO">
+                    <span>SEO Optimization</span>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="experience">
+                <h3>Experience</h3>
+                <p><strong>Web Developer</strong> at XYZ Tech - 2+ Years</p>
+                <p><strong>Freelancer</strong> - 5+ Successful Projects</p>
+            </div>
+
+            <a href="#hire" class="btn">Contact Me</a>
+        </div>
+    </div>
+</section>
+ <!-- Services Section -->
+<section id="services">
+    <h2>My Services</h2>
+    <div class="services-container">
+        
+        <div class="service-box">
+            <img src="icons/web-development.png" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Creating modern, responsive, and fast websites for businesses and individuals.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="icons/ui-ux.png" alt="UI/UX Design">
+            <h3>UI/UX Design</h3>
+            <p>Designing user-friendly, visually appealing, and highly functional interfaces.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="icons/seo.png" alt="SEO Optimization">
+            <h3>SEO Optimization</h3>
+            <p>Improving search engine rankings and increasing website visibility.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="icons/cms.png" alt="Content Management">
+            <h3>Content Management</h3>
+            <p>Managing website content with CMS platforms like WordPress and Shopify.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="icons/web-apps.png" alt="Custom Web Applications">
+            <h3>Custom Web Applications</h3>
+            <p>Developing powerful and scalable web applications tailored to business needs.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Hire Me Section -->
+<section id="hire">
+    <div class="hire-container">
+        <h2>Hire Me</h2>
+        <p>If you're looking for a professional to bring your ideas to life and build a website that stands out, let's collaborate! Please fill in the form below to get in touch with me.</p>
+
+        <!-- Contact Form -->
+        <form action="mailto:afiya@example.com" method="post" enctype="text/plain" class="contact-form">
+            <div class="form-field">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-field">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+            </div>
+            <div class="form-field">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="hire-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>
