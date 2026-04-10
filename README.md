@@ -24,9 +24,9 @@ This project is a personal portfolio website built using HTML and CSS to showcas
 
 ## 📂 Project Structure
 Portfolio-website-using-HTML-CSS/
-│── index.html # Homepage
-│── style.css # Main stylesheet
-│── assets/
-│ ├── images/ # All images
-│ ├── icons/ # Icons
-│── README.md # Documentation
+│-── index.html # Homepage
+│-── style.css # Main stylesheet
+│-── assets/
+│ ├-── images/ # All images
+│ ├-── icons/ # Icons
+│-── README.md # Documentation
